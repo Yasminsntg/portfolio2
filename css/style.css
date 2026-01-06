@@ -7,7 +7,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
- /* Círculos decorativos */
+ /* decoração */
 .decoracao {
     position: absolute;
     border-radius: 50%;
@@ -55,7 +55,7 @@
     left: 60%;
 }
 
-
+/* estilo do body */
 body {
     background-color: black;
     margin: 0 auto;
@@ -78,6 +78,10 @@ h2 {
     text-align: left;
     border-bottom: 2px solid #FF5BB3; /* cria a linha embaixo */ 
     padding-bottom: 8px;
+}
+
+ul.espacamento {
+    margin-top: 20px;
 }
 
 /* estilo do cabeçalho */
@@ -112,7 +116,6 @@ header nav li {
     display: inline-block;
     padding: 0 40px;
 }
-/* estilo do cabeçalho */
 
 /* estilo do topo do site */
 section.topo-do-site {
@@ -157,11 +160,41 @@ section.habilidades .flex {
 }
 
 section.habilidades .interface{
-    color: #ffff;
+    color: #ffffff;
     text-align: left;
 }
 
+/* estilo do planejamentos */
 
+section.planejamentos {
+    padding: 40px 4%;
+}
+
+section.planejamentos .flex {
+    gap: 60PX;
+}
+
+section.planejamentos .interface {
+    color: #ffffff;
+    text-align: left;
+}
+
+/* estilo do tempo livre*/
+
+section.tempo-livre {
+    padding: 40px 4%;
+}
+
+section.tempo-livre .flex {
+    gap: 60PX;
+}
+
+section.tempo-livre .interface {
+    color: #ffffff;
+    text-align: left;
+}
+
+/* estilo do rodapé */
    footer {
     text-align: center;
     background-color: #333;

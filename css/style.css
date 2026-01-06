@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+ /* Círculos decorativos */
+.decoracao {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.circle1 {
+    width: 150px;
+    height: 150px;
+    background: #FD05AC;
+    top: 50px;
+    left: -50px;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background: #FD05AC;
+    bottom: 100px;
+    right: -80px;
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    background: #FD05AC;
+    top: 400px;
+    right: 500px;
+}
+
+.circle4 {
+    width: 120px;
+    height: 120px;
+    background: #FD05AC;
+    bottom: 250px;
+    left: 30px;
+}
+
+.circle5 {
+    width: 80px;
+    height: 80px;
+    background: #FD05AC;
+    top: 600px;
+    left: 60%;
+}
+
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+h2 {
+    color: #FF5BB3;
+    font-size: 35px;
+    text-align: left;
+    border-bottom: 2px solid #FF5BB3; /* cria a linha embaixo */ 
+    padding-bottom: 8px;
+}
+
+/* estilo do cabeçalho */
+header {
+padding: 40px 4%;        
+    }
+
+ header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+header a {
+    color: #FF5BB3;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 40px;
+}
+/* estilo do cabeçalho */
+
+/* estilo do topo do site */
+section.topo-do-site {
+    padding: 35px 4%;
+}
+
+section.topo-do-site .flex {
+    justify-content: center;
+    align-items: center ;
+    gap: 99px;
+}
+
+.topo-do-site h1 {
+    color: #FF5BB3;
+    font-size: 60px;
+}
+
+.topo-do-site .texto-topo p {
+    color: white;
+    font-size: 22px;
+    margin: 40px 0;
+}
+
+.img-topo-site img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffff;
+    }
+/* estilo do topo do site */
+
+
+/* estilo das habilidades */
+section.habilidades {
+    padding: 40px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+section.habilidades .interface{
+    color: #ffff;
+    text-align: left;
+}
+
+
+   footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
